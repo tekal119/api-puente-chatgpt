@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Webhook de Google Apps Script
-WEBHOOK_URL = "https://script.google.com/macros/s/AKfyc.../exec"  # Reemplazá con el tuyo
+WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbzg44oxDb0whJcBlO08n5rV8ZJsvkR8BB5EswGQLWdJ6EQNVnHVHv-pyucubDG8HSr1/exec"  # Reemplazá con el tuyo
 
 @app.route('/')
 def home():
